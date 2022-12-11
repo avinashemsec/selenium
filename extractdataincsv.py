@@ -6,8 +6,6 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import pandas as pd
 
-PATH="C:\Program Files (x86)\chromedriver.exe"
-
 driver=webdriver.Chrome()
 
 driver.get("https://www.nytimes.com/section/technology")
